@@ -2,14 +2,75 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
+## Part A - Video Summary
+
+### Selected Video
+
+Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir
+
+### Summary
+
+Mr. Baykal talked about his education and career journey and explained how optimization and analytics are used in business life. He introduced the concepts of descriptive, diagnostic, predictive, and prescriptive analytics and stated that industrial engineering courses provide a strong foundation for these areas. He emphasized that the most important step in analytics projects is correctly defining the problem, determining measurable KPIs, and turning the solution into a software or system that users can actually use. He also mentioned that students who want to specialize in optimization should improve their mathematical modeling skills, practice with tools such as Python, and gain experience by working on real-world problems.
+
+### Open-ended Question
+
+**Question:** Why is it important to correctly define the problem and determine KPIs in analytics projects according to Mr. Baykal?
+
+\
+**Answer:** It is important because defining the problem correctly and determining KPIs makes it possible to measure whether the solution actually works and to show the improvement quantitatively.
+
+### Multiple-choice Question
+
+**Question:** According to Mr. Baykal, why is it important to correctly define the problem and determine KPIs in analytics projects?
+
+A)  To make the project take longer
+B)  To measure the success of the solution and show improvement quantitatively
+C)  To write more code
+D)  Only to prepare reports
+
+**Correct Answer:** B) To measure the success of the solution and show improvement quantitatively.
+
+------------------------------------------------------------------------
+
+## Part B - R Analysis
 
 ```{r}
-1 + 1
+
+library(dslabs)
+data("polls_us_election_2016")
+
+my_first <- "Basar"
+my_birth_year <- 2004
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+
+if (k %% 2 == 0) {
+  head(polls_us_election_2016, k)
+} else {
+  tail(polls_us_election_2016, k)
+}
+
+total_na <- sum(is.na(polls_us_election_2016))
+column_na <- sort(colSums(is.na(polls_us_election_2016)), decreasing = TRUE)
+print(total_na)
+print(head(column_na, 8))
+
+new_data <- polls_us_election_2016
+for (col in names(new_data)) {
+  if (is.numeric(new_data[[col]])) {
+    new_data[[col]][is.na(new_data[[col]])] <- my_birth_year + k
+  } else if (is.character(new_data[[col]]) || is.factor(new_data[[col]])) {
+    new_data[[col]] <- as.character(new_data[[col]])
+    new_data[[col]][is.na(new_data[[col]])] <- paste0(my_first, "_", k)
+  }
+}
+
+if (k %% 2 == 0) {
+  head(new_data, k)
+} else {
+  tail(new_data, k)
+}
+
+knitr::kable(tail(polls_us_election_2016, k))
+print(sum(is.na(new_data)))
+print(anyNA(new_data))
 ```
-
-My first assignment has two parts.
-
-## (a)
-
-## (b)

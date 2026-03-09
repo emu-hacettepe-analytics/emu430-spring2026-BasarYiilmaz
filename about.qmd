@@ -3,28 +3,62 @@ title: "About Me"
 sidebar: false 
 ---
 
-# Education
+**Başar Yılmaz**\
+05310807889 \| basaryilmazbb\@gmail.com\
+Ankara, Turkey \| [LinkedIn](https://www.linkedin.com/in/basaryilmaz/)\
+Industrial Engineering Student
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+Junior Industrial Engineering student at Hacettepe University. Passionate about sustainability, innovation, and collaborative projects. Quick learner with strong analytical and communication skills.
 
-# Work Experience
+------------------------------------------------------------------------
 
-## Employements
+### EXPERIENCE
 
-1.  Firm xxx, position xx, year xxx
+**Turkish Aerospace Industries (TAI) – Sky Experience**\
+Candidate Engineer in the Production Planning and Control department. Involved in aerospace engineering practices including aircraft systems, manufacturing processes, and engineering workflows while developing knowledge of aviation industry standards.\
+*November 2025 - Present*
 
-2.  Firm yyy, position yyy, year yyy
+**Internship – EPAŞ, Adana**\
+Hands-on experience in flange manufacturing, plasma cutting, lathe operations, valve production, and PVC/P100 pipe production. Supported quality control processes and improved understanding of industrial production systems.\
+*July 2025 - August 2025*
 
-## Internships
+**Shell İLERİDE Program (Project Based Trainee)**\
+Participated in business simulations, training sessions, and projects. Developed key competencies required for the 21st century.\
+*February 2025 - July 2025*
 
-1.  Firm aaa, position xx, year xxx
+**Work and Travel – Morey’s Piers Amusement Park (Game Operator)**\
+Improved English proficiency and engaged with diverse cultures. Developed teamwork skills in a fast-paced environment and ability to quickly solve unexpected problems.\
+*June 2024 - September 2024*
 
-2.  Firm bbb, position yyy, year yyy
+**ACM Hacettepe Society (Active Member)**\
+Actively involved in communicating with sponsors and speakers. Supported event planning and organization processes.\
+*September 2022 - June 2024*
 
-# Projects
+------------------------------------------------------------------------
 
-# Competencies
+### PROJECTS
 
-R, Quarto, Git, Python
+**Ecopresso – Circular Economy Initiative (Shell Seed Supported)**\
+Developed Ecopresso, an upcycling project focused on sustainability in collaboration with team members. Awarded Seed Support by Shell for social and environmental impact. Gained experience in teamwork, project development, and sustainable innovation.
 
-# Hobbies
+------------------------------------------------------------------------
+
+### SKILLS
+
+-   Python – Pre-Intermediate\
+-   AutoCAD – Pre-Intermediate\
+-   Excel – Intermediate
+
+------------------------------------------------------------------------
+
+### LANGUAGE SKILLS
+
+-   Turkish – Native\
+-   English – Upper Intermediate\
+-   German – Beginner
+
+------------------------------------------------------------------------
+
+### CV Download
+
+[Download my CV](files/BasarYilmazCV.pdf)

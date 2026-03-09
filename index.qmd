@@ -3,10 +3,10 @@ title: "Welcome to My Analytics Lab"
 sidebar: false 
 ---
 
-Hello! My name is xxx xxxx.
+Hello! My name is Başar Yılmaz.
 
-This is my personal webpage.
+This is my personal webpage for EMU430 Data Analytics.
 
-Please stay tuned to follow my works on data analytics, blog posts, and more.
+On this website, I will share my assignments, course projects, and other work related to data analytics.
 
-This is our template.
+Stay tuned for blog posts, analyses, and project updates!
