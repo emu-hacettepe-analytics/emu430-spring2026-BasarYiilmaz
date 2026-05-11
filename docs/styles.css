@@ -1,1 +1,87 @@
 /* css styles */
+
+
+:root {
+  --flynomics-navy: #1D3557;
+  --flynomics-red: #E63946;
+  --flynomics-teal: #264653;
+  --flynomics-orange: #E76F51;
+  --bg-color: #f8f9fa;
+  --text-main: #333333;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--flynomics-navy);
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+a {
+  color: var(--flynomics-red);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--flynomics-orange);
+  text-decoration: underline;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: var(--flynomics-navy) !important;
+  border-bottom: 3px solid var(--flynomics-red);
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: var(--flynomics-orange) !important;
+}
+
+/* Sidebar styling for documentation */
+.sidebar {
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+}
+
+/* Code blocks */
+pre {
+  background-color: var(--flynomics-teal);
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 12px;
+  border-left: 4px solid var(--flynomics-orange);
+}
+
+code {
+  color: var(--flynomics-red);
+  font-weight: 600;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th {
+  background-color: var(--flynomics-navy);
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
